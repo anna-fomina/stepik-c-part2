@@ -8,6 +8,7 @@ explicit Unit(size_t id)
 {}
 
 size_t id() const { return id_; }
+virtual ~Unit() {};
 
 private:
 size_t id_;

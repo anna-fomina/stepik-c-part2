@@ -41,10 +41,10 @@ void task_1_2() {
 	int const b = 412;
 	int * pa = &a;
 
-	int const c = a;
-	int d = b;
-	int const * p1 = pa;
-	int * const * p2 = &pa;
-	int const ** p3 = &pa;
+	//int const c = a;
+	//int d = b;
+	//int const * p1 = pa;
+	//int * const * p2 = &pa;
+	//int const ** p3 = &pa;
 	return;
 }
