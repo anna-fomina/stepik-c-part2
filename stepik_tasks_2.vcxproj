@@ -77,6 +77,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -118,9 +121,11 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="task_1_2.cpp" />
     <ClCompile Include="task_2_1.cpp" />
+    <ClCompile Include="task_2_2.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="array.h" />
     <ClInclude Include="tasks.h" />
     <ClInclude Include="unit.h" />
   </ItemGroup>
