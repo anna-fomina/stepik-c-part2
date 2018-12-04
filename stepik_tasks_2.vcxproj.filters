@@ -44,5 +44,8 @@
     <ClInclude Include="array.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -127,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="array.h" />
+    <ClInclude Include="point.h" />
     <ClInclude Include="tasks.h" />
     <ClInclude Include="unit.h" />
   </ItemGroup>
