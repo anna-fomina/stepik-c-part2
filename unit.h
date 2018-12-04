@@ -30,24 +30,24 @@ private:
 // класс для человека
 struct Man : virtual Unit
 {
-	explicit Man(size_t id) : Unit(id) {}
+	explicit Man(size_t id = 50) : Unit(id) {}
 };
 
 // класс для медведя
 struct Bear : Animal
 {
-	explicit Bear(size_t id) : Animal("bear", id), Unit(id) {}
+	explicit Bear(size_t id = 100) : Animal("bear", id), Unit(id) {}
 };
 
 // класс для свиньи
 struct Pig : Animal
 {
-	explicit Pig(size_t id) : Animal("pig", id), Unit(id) {}
+	explicit Pig(size_t id = 300) : Animal("pig", id), Unit(id) {}
 };
 
 // класс для челмедведосвина
 struct ManBearPig : Man, Bear, Pig
 {
-	ManBearPig(size_t id) : Bear(id), Pig(id), Man(id), Unit(id) {}
+	ManBearPig(size_t id = 80) : Bear(id), Pig(id), Man(id), Unit(id) {}
 	// ...
 };

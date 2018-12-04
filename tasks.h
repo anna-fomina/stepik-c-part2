@@ -3,4 +3,5 @@
 void task_1_2();
 void task_2_1();
 void task_2_2();
+void task_2_3();
 void test();
