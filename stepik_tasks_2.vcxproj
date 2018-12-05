@@ -124,11 +124,13 @@
     <ClCompile Include="task_2_2.cpp" />
     <ClCompile Include="task_2_3.cpp" />
     <ClCompile Include="task_2_4.cpp" />
-    <ClCompile Include="task_3_1.cpp" />
+    <ClCompile Include="task_3_2.cpp" />
+    <ClCompile Include="task_3_3.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="array.h" />
+    <ClInclude Include="multimethod2.h" />
     <ClInclude Include="point.h" />
     <ClInclude Include="tasks.h" />
     <ClInclude Include="unit.h" />

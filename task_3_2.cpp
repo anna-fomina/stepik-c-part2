@@ -25,7 +25,7 @@ size_t max_increasing_len(It p, It q) {
 	}
 }
 
-void task_3_1() {
+void task_3_2() {
 	std::list<int> const l = { 3,2,1 };
 	int len1 = max_increasing_len(l.begin(), l.end());
 	if (len1 == 1) std::cout << "1 TRUE" << std::endl;
