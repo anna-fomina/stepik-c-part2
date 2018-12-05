@@ -3,7 +3,7 @@
 
 int main() {
 
-	task_2_4();
+	task_3_1();
 
 	system("pause");
 	return 0;
