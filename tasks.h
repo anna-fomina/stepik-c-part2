@@ -9,4 +9,5 @@ void task_3_2();
 void task_3_3();
 void task_3_4();
 void task_3_5();
+void task_4_1();
 void test();
