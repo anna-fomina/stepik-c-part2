@@ -129,6 +129,7 @@
     <ClCompile Include="task_3_4.cpp" />
     <ClCompile Include="task_3_5.cpp" />
     <ClCompile Include="task_4_1.cpp" />
+    <ClCompile Include="task_4_3.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
